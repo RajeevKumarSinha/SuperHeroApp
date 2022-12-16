@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-color: rgb(137, 253, 247);
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: roboto;
+    text-align: center;
+    text-shadow: 2px 2px #ff0000cc;
+    height: 99vh;
+    align-items: center;
+}
+.appContainer{
+    width: 30%;
+    background-color: black;
+}
+
+.about{
+    text-shadow: none;
+    font-weight: 100;
+    font-size: larger;
+}
+.heroName{
+    text-shadow: none;
+    color: lightseagreen;
+}
+.heroImg{
+    width: 80%;
+    height: 25vw;
+    object-fit: cover;
+    object-position: center;
+}
+.heroDetailsBox{
+    text-shadow: none;
+    text-align: left;
+    margin: 15px 10%;
+}
+.random, .search:hover{
+    cursor: pointer;
+}
+
+@media (max-width:700px) {
+    .appContainer{
+        width: 80%;
+    }
+    .heroImg{
+        height: 40vw;
+    }
+}
